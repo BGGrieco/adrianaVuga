@@ -6,7 +6,7 @@ body
     width: 100%;
 	margin: 0px;
 	padding: 0px;
-	background-color: #f3efe0;
+	background-color: #fcfdff;
 }
 
 /*Phone View*/
@@ -127,7 +127,7 @@ body
 
 #quote
 {
-	padding-top: 10px;
+	padding-top: 40px;
 	width: 94%;
 	font-family: "arial";
 }
@@ -146,21 +146,17 @@ body
 	text-align: center;
 }
 
-#welcomeText
+.centered
 {
-	width: 92%;
-	height: 50px;
-	font-family: "arial";
-	padding: 0px 20px 0px 20px;
-	font-size: 20px;
-	text-align: center;
+	position: relative;
+	margin: auto;
+	width: 86%;
 }
 
 #bio
 {
 	width: 90%;
 	font-family: "arial";
-	padding-left: 20px;
 	text-align: justify;
 }
 
@@ -177,7 +173,6 @@ body
 {
 	width: 90%;
 	font-family: "arial";
-	padding-left: 20px;
 	text-align: justify;
 }
 
@@ -189,6 +184,14 @@ body
 	color: #719ace;
 }
 
+.contactDetails
+{
+	width: 20%;
+	position: relative;
+	left: 0;
+	text-align: justify;
+}
+
 #wrap
 {
 	width: 300px;
@@ -198,24 +201,23 @@ body
 {
 	width: 86%;
 	font-family: "arial";
-	text-align: left;
-	padding-left: 20px;
+	text-align: center;
+	padding-bottom: 200px;
 }
 
 #tel
 {
 	text-align: center;
-	padding-right: 118px;
 }
 
-#contact a
+a
 {
 	font-family: "arial";
-	text-decoration: none;
+	text-decoration: underline;
 	color: #000000;
 }
 
-#contact a:hover
+a:hover
 {
 	color: #719ace;
 }
@@ -243,6 +245,17 @@ body
 #address a
 {
 	font-family: "arial";
+}
+
+.miniHeader
+{
+	margin: 0;
+	font-weight: bold;
+}
+
+.miniSubHeader
+{
+	margin-top: 0;
 }
 
 #mapOne
@@ -298,8 +311,8 @@ body
 	}
 
 	.sidenav
-    {
-        display: none;
+  {
+     display: none;
 	}
 
 	.logo
@@ -308,21 +321,20 @@ body
 	}
 
 	.logo img
-    {
+  {
 		display: block;
-	    padding-left: 120px;
-	    padding-top: 20px;
-    }
+	  padding-left: 120px;
+	  padding-top: 20px;
+  }
 
-    .nav
-    {
-	    display: inline-block;
-	    font-family: "verdana";
-	    text-align: center;
-	    top: 150px;
-		width: 100%
-
-    }
+  .nav
+  {
+	   display: inline-block;
+	   font-family: "verdana";
+	   text-align: center;
+	   top: 150px;
+		 width: 100%;
+  }
 
     .nav li
     {
@@ -354,25 +366,42 @@ body
 		display: block;
 	}
 
-    #slideshow img
-    {
-		width: 100%;
-    }
+  #slideshow img
+  {
+	width: 100%;
+  }
 
 	#welcomeText
-    {
-	    font-size: 24px;
-    }
+  {
+	   font-size: 24px;
+  }
 
 	#mapOne
-    {
-	    display: block;
-	    position: relative;
-	    width: 800px;
-	    height: 500px;
-	    margin-left: 20px;
-	    margin-bottom: 20px;
-    }
+  {
+	   position: absolute;
+		 top: 98px;
+		 right: 0;
+	   width: 73%;
+	   height: 400px;
+	   margin-bottom: 20px;
+  }
+
+	#bottomImageContainer
+	{
+		height: 200px;
+	}
+
+	.bottomImage
+	{
+		position: relative;
+		float: left;
+		width: 49.5%;
+	}
+
+	.rightImage
+	{
+		margin-left: 1%;
+	}
 
 	#footer
     {
@@ -383,29 +412,36 @@ body
 /*Desktop view*/
 @media (min-width: 1155px)
 {
+	.headerContainer
+	{
+		width: 86%;
+		position: relative;
+		margin: auto
+	}
 
-    .nav
-    {
-	    position: absolute;
-	    display: inline-block;
-	    font-family: "verdana";
-	    text-align: center;
-	    right: 100px;
-	    top: 38px;
-    }
+	.nav
+  {
+	   position: absolute;
+	   display: inline-block;
+	   font-family: "verdana";
+	   text-align: center;
+	   right: 100px;
+	   top: 38px;
+  }
 
 	.logo
 	{
 		display: block;
+
 	}
 
 	.logo img
-    {
+  {
 		display: block;
-	    float: left;
-	    padding-left: 50px;
-	    padding-top: 20px;
-    }
+	  float: left;
+	  padding-left: 0;
+	  padding-top: 0;
+  }
 
     .nav
     {
@@ -414,7 +450,6 @@ body
 	    font-family: "verdana";
 	    text-align: center;
 	    left: 276px;
-	    top: 70px;
     }
 
     .nav li
@@ -443,26 +478,16 @@ body
 
     #slideshow img
     {
-	    padding-left: 50px;
-	    padding-top: 20px;
-		width: 1100px;
-    }
-
-    #welcomeText
-    {
-	    width: 1100px;
-	    font-family: "arial";
-		font-size: 30px;
-	    padding-left: 50px;
-		text-align: center;
+	    position: relative;
+			margin: auto;
+			width: 1100px;
     }
 
 	#bio
 	{
-		width: 1100px;
-	    font-family: "arial";
-	    padding-left: 50px;
-		padding-top: 20px;
+		 width: 1100px;
+	   font-family: "arial";
+		 padding-top: 20px;
 	}
 
 	#bio h2
@@ -475,10 +500,9 @@ body
 
 	#therapy
 	{
-		width: 1100px;
-	    font-family: "arial";
-	    padding-left: 50px;
-		padding-top: 20px;
+		 width: 1100px;
+	   font-family: "arial";
+		 padding-top: 20px;
 	}
 
 	#therapy h2
@@ -488,27 +512,6 @@ body
 		font-size: 50px;
 		color: #719ace;
 	}
-
-	#contact
-	{
-		padding-left: 50px;
-    }
-
-
-	#address
-    {
-	    padding-left: 50px;
-    }
-
-    #mapOne
-    {
-	    display: block;
-	    position: relative;
-	    width: 1050px;
-	    height: 500px;
-	    margin-left: 50px;
-	    margin-bottom: 20px;
-    }
 
 	#footer
     {
@@ -523,7 +526,7 @@ body
 	    font-family: "arial";
 	    text-decoration-style: none;
 	    padding-left: 50px;
-		padding-top: 20px;
+		  padding-top: 20px;
 	    color:#FFFFFF;
     }
 }
