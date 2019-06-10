@@ -1,17 +1,21 @@
 @charset "UTF-8";
 
 body
-{
+/* {
+	position: fixed;
 	height: 100%;
-    width: 100%;
-	margin: 0px;
-	padding: 0px;
+  width: 100%;
+	margin: 0;
+	padding: 0;
 	background-color: #fcfdff;
+} */
+
+p {
+	font-size: 18px;
 }
 
 /*Phone View*/
-.logo
-{
+.logo {
 	display: none;
 }
 
@@ -60,7 +64,7 @@ body
 
 #x
 {
-    padding: 0px 8px 42px 0px;
+    padding: 0 8px 42px 0;
     text-decoration: none;
     font-size: 40px;
 	font-family: "verdana";
@@ -71,14 +75,14 @@ body
 
 .sidenav a
 {
-    padding: 30px 8px 30px 30px;
+    padding: 30px 8px 30px 8px;
     text-decoration: none;
     font-size: 25px;
-	font-family: "verdana";
+	  font-family: "verdana";
     color: #FFFFFF;
     display: block;
     transition: 0.3s;
-	border-bottom: solid 1px #FFFFFF;
+	  border-bottom: solid 1px #FFFFFF;
 }
 
 .sidenav a:hover, .offcanvas a:focus
@@ -130,19 +134,20 @@ body
 	padding-top: 40px;
 	width: 94%;
 	font-family: "arial";
+	margin-bottom: 40px;
 }
 
 #quote h2
 {
 	margin: 0 auto;
-	font-size: 16px;
+	font-size: 24px;
 	text-align: center;
 }
 
 #quote p
 {
 	margin: 0 auto;
-	font-size: 15px;
+	font-size: 16px;
 	text-align: center;
 }
 
@@ -270,6 +275,8 @@ a:hover
 
 #footer
 {
+	position: absolute;
+	bottom: 0;
 	width: 100%;
 	margin: 0 auto;
 	height: 100px;
@@ -378,17 +385,18 @@ a:hover
 
 	#mapOne
   {
-	   position: absolute;
-		 top: 98px;
-		 right: 0;
-	   width: 73%;
-	   height: 400px;
-	   margin-bottom: 20px;
+	  position: absolute;
+		top: 98px;
+		right: 0;
+	  width: 73%;
+	  height: 400px;
+	  margin-bottom: 20px;
   }
 
 	#bottomImageContainer
 	{
-		height: 200px;
+		height: 300px;
+		margin-bottom: 50px;
 	}
 
 	.bottomImage
@@ -402,11 +410,6 @@ a:hover
 	{
 		margin-left: 1%;
 	}
-
-	#footer
-    {
-	    height: 50px;
-    }
 }
 
 /*Desktop view*/
@@ -421,12 +424,12 @@ a:hover
 
 	.nav
   {
-	   position: absolute;
-	   display: inline-block;
-	   font-family: "verdana";
-	   text-align: center;
-	   right: 100px;
-	   top: 38px;
+	  position: absolute;
+	  display: inline-block;
+	  font-family: "verdana";
+	  text-align: center;
+	  right: 100px;
+	  top: 38px;
   }
 
 	.logo
@@ -443,45 +446,44 @@ a:hover
 	  padding-top: 0;
   }
 
-    .nav
-    {
-	    position: absolute;
-	    display: inline-block;
-	    font-family: "verdana";
-	    text-align: center;
-	    left: 276px;
-    }
+  .nav
+  {
+	  position: absolute;
+	  display: inline-block;
+	  font-family: "verdana";
+	  text-align: center;
+	  left: 276px;
+  }
 
-    .nav li
-    {
-	    display: inline;
-    }
+  .nav li
+  {
+	  display: inline;
+  }
 
-    .nav a
-    {
-	    display: inline-block;
-		padding: 0px;
-	    text-decoration: none;
-	    color: #6B6B6B;
-    }
+  .nav a
+  {
+	  display: inline-block;
+		padding: 0;
+	  text-decoration: none;
+	  color: #6B6B6B;
+  }
 
-    .nav a:hover
-    {
-	    color: #6491CB;
-	    font-style: italic;
-    }
+  .nav a:hover
+  {
+	  color: #6491CB;
+	  font-style: italic;
+  }
 
-    .nav a:active
-    {
-	    color: #9bd799;
-    }
+  .nav a:active
+  {
+	  color: #9bd799;
+  }
 
-    #slideshow img
-    {
-	    position: relative;
-			margin: auto;
-			width: 1100px;
-    }
+  #slideshow img
+  {
+	  position: relative;
+		margin: auto;
+  }
 
 	#bio
 	{
