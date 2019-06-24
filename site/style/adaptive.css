@@ -1,14 +1,11 @@
 @charset "UTF-8";
 
 body
-/* {
-	position: fixed;
-	height: 100%;
-  width: 100%;
+{
 	margin: 0;
 	padding: 0;
 	background-color: #fcfdff;
-} */
+}
 
 p {
 	font-size: 18px;
@@ -131,7 +128,7 @@ p {
 
 #quote
 {
-	padding-top: 40px;
+	padding-top: 30px;
 	width: 94%;
 	font-family: "arial";
 	margin-bottom: 40px;
@@ -275,7 +272,7 @@ a:hover
 
 #footer
 {
-	position: absolute;
+	position: relative;
 	bottom: 0;
 	width: 100%;
 	margin: 0 auto;
