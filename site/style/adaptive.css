@@ -64,7 +64,7 @@ p {
     padding: 0 8px 42px 0;
     text-decoration: none;
     font-size: 40px;
-	font-family: "verdana";
+	  font-family: "verdana";
     color: #FFFFFF;
     display: block;
     transition: 0.3s;
@@ -137,7 +137,7 @@ p {
 #quote h2
 {
 	margin: 0 auto;
-	font-size: 24px;
+	font-size: 18px;
 	text-align: center;
 	font-weight: 400;
 }
@@ -187,6 +187,10 @@ p {
 	color: #719ace;
 }
 
+.blue {
+	color: #719ace;
+}
+
 .contactDetails
 {
 	width: 20%;
@@ -217,11 +221,6 @@ a
 {
 	font-family: "arial";
 	text-decoration: underline;
-	color: #000000;
-}
-
-a:hover
-{
 	color: #719ace;
 }
 
@@ -344,13 +343,12 @@ a:hover
     .nav li
     {
 	    display: inline;
-		padding-right: 60px;
+		padding-left: 60px;
     }
 
     .nav a
     {
 	    display: inline-block;
-	    padding: 30px;
 	    text-decoration: none;
 	    color: #6B6B6B;
     }
@@ -368,12 +366,14 @@ a:hover
 
 	#slideshow
 	{
+		position: relative;
 		display: block;
+		top: 10px;
 	}
 
   #slideshow img
   {
-	width: 100%;
+	  width: 100%;
   }
 
 	#welcomeText
@@ -420,14 +420,16 @@ a:hover
 		margin: auto
 	}
 
-	.nav
-  {
-	  position: absolute;
+	.nav {
+	  position: relative;
+		left: 0;
+		padding: 0;
 	  display: inline-block;
 	  font-family: "verdana";
-	  text-align: center;
-	  right: 100px;
-	  top: 38px;
+	  text-align: right;
+	  top: -22px;
+		margin: 0;
+		z-index: 2;
   }
 
 	.logo
@@ -442,15 +444,6 @@ a:hover
 	  float: left;
 	  padding-left: 0;
 	  padding-top: 0;
-  }
-
-  .nav
-  {
-	  position: absolute;
-	  display: inline-block;
-	  font-family: "verdana";
-	  text-align: center;
-	  left: 276px;
   }
 
   .nav li
@@ -487,7 +480,6 @@ a:hover
 	{
 		 width: 1100px;
 	   font-family: "arial";
-		 padding-top: 20px;
 	}
 
 	#bio h2
