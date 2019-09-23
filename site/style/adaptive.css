@@ -154,6 +154,8 @@ p {
 	position: relative;
 	margin: auto;
 	width: 86%;
+	margin-top: 40px;
+	margin-bottom: 20px;
 }
 
 #bio
@@ -272,7 +274,7 @@ a
 
 #footer
 {
-	position: relative;
+	position: absolute;
 	bottom: 0;
 	width: 100%;
 	margin: 0 auto;
@@ -300,10 +302,14 @@ a
 	color: #719ace;
 }
 
+.nav>li>a.active {
+	background-color: #719ace;
+	color: white;
+}
+
 /*Pad view*/
 @media (min-width: 720px)
 {
-
 	#miniLogo
 	{
 		display: none;
@@ -338,30 +344,27 @@ a
 	   text-align: center;
 	   top: 150px;
 		 width: 100%;
+		 border-bottom: solid 5px #719ace;
   }
 
     .nav li
     {
 	    display: inline;
-		padding-left: 60px;
+			padding-left: 50px;
     }
 
     .nav a
     {
 	    display: inline-block;
 	    text-decoration: none;
-	    color: #6B6B6B;
+	    color: #719ace;
+			padding: 5px;
     }
 
     .nav a:hover
     {
-	    color: #719ace;
-	    font-style: italic;
-    }
-
-    .nav a:active
-    {
-	    color: #9bd799;
+	    color: #ffffff;
+			background-color: #719ace;
     }
 
 	#slideshow
@@ -384,7 +387,7 @@ a
 	#mapOne
   {
 	  position: absolute;
-		top: 98px;
+		top: 0;
 		right: 0;
 	  width: 73%;
 	  height: 400px;
@@ -411,10 +414,9 @@ a
 }
 
 /*Desktop view*/
-@media (min-width: 1155px)
+@media (min-width: 1250px)
 {
-	.headerContainer
-	{
+  .headerContainer {
 		width: 86%;
 		position: relative;
 		margin: auto
@@ -451,25 +453,6 @@ a
 	  display: inline;
   }
 
-  .nav a
-  {
-	  display: inline-block;
-		padding: 0;
-	  text-decoration: none;
-	  color: #6B6B6B;
-  }
-
-  .nav a:hover
-  {
-	  color: #6491CB;
-	  font-style: italic;
-  }
-
-  .nav a:active
-  {
-	  color: #9bd799;
-  }
-
   #slideshow img
   {
 	  position: relative;
@@ -503,6 +486,12 @@ a
 		font-family: "helvetica";
 		font-size: 50px;
 		color: #719ace;
+	}
+
+	#bottomImageContainer
+	{
+		top: -60px;
+		margin-top: 0;
 	}
 
 	#footer
