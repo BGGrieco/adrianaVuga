@@ -195,10 +195,10 @@ p {
 
 .contactDetails
 {
-	width: 20%;
+	width: 23%;
 	position: relative;
 	left: 0;
-	text-align: justify;
+	text-align: left;
 }
 
 #wrap
