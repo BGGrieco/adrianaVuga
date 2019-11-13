@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
-body
-{
+body {
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -21,26 +20,22 @@ p {
 	display: none;
 }
 
-#slideshow
-{
+#slideshow {
 	display: none;
 }
 
-.nav
-{
+.nav {
 	display: none;
 }
 
-#miniLogo img
-{
+#miniLogo img {
 	display: block;
 	margin: 0 auto;
 	width: 100%;
 	padding-top: 20px;
 }
 
-#burger
-{
+#burger {
 	display: block;
 	margin: 0 auto;
 	width: 100%;
@@ -50,112 +45,105 @@ p {
 	cursor: pointer;
 }
 
-.sidenav
-{
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #719ace;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #719ace;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
 }
 
-#x
-{
-    padding: 0 8px 42px 0;
-    text-decoration: none;
-    font-size: 40px;
-	  font-family: "verdana";
-    color: #FFFFFF;
-    display: block;
-    transition: 0.3s;
+#x {
+	padding: 0 8px 42px 0;
+	text-decoration: none;
+	font-size: 40px;
+	font-family: "verdana";
+	color: #FFFFFF;
+	display: block;
+	transition: 0.3s;
 }
 
-.sidenav a
-{
-    padding: 30px 8px 30px 8px;
-    text-decoration: none;
-    font-size: 25px;
-	  font-family: "verdana";
-    color: #FFFFFF;
-    display: block;
-    transition: 0.3s;
-	  border-bottom: solid 1px #FFFFFF;
+.sidenav a {
+	padding: 30px 8px 30px 8px;
+	text-decoration: none;
+	font-size: 25px;
+	font-family: "verdana";
+	color: #FFFFFF;
+	display: block;
+	transition: 0.3s;
+	border-bottom: solid 1px #FFFFFF;
 }
 
-.sidenav a:hover, .offcanvas a:focus
-{
-    color: #9dd198;
+.sidenav a:hover,
+.offcanvas a:focus {
+	color: #9dd198;
 }
 
-#x:hover
-{
-    color: #9dd198;
+#x:hover {
+	color: #9dd198;
 }
 
-.sidenav .closebtn
-{
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
 }
 
-@media screen and (max-height: 450px)
-{
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+@media screen and (max-height: 450px) {
+	.sidenav {
+		padding-top: 15px;
+	}
+
+	.sidenav a {
+		font-size: 18px;
+	}
 }
 
-.back-to-top
-{
-  background: none;
-  margin: 0;
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  width: 70px;
-  height: 70px;
-  z-index: 100;
-  display: none;
-  opacity: 0.5;
+.back-to-top {
+	background: none;
+	margin: 0;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	width: 70px;
+	height: 70px;
+	z-index: 100;
+	display: none;
+	opacity: 0.5;
 }
 
-.back-to-top:hover
-{
+.back-to-top:hover {
 	opacity: 1;
 }
 
-#quote
-{
+#quote {
 	padding-top: 30px;
 	width: 94%;
 	font-family: "arial";
 	margin-bottom: 40px;
 }
 
-#quote h2
-{
+#quote h2 {
 	margin: 0 auto;
 	font-size: 18px;
 	text-align: center;
 	font-weight: 400;
 }
 
-#quote p
-{
+#quote p {
 	margin: 0 auto;
 	font-size: 16px;
 	text-align: center;
 }
 
-.centered
-{
+.centered {
 	position: relative;
 	margin: auto;
 	width: 86%;
@@ -163,15 +151,13 @@ p {
 	margin-bottom: 20px;
 }
 
-#bio
-{
+#bio {
 	width: 90%;
 	font-family: "arial";
 	text-align: justify;
 }
 
-#bio h2
-{
+#bio h2 {
 	text-align: center;
 	font-family: "arial";
 	font-size: 50px;
@@ -179,16 +165,14 @@ p {
 	padding-top: 10px;
 }
 
-#therapy
-{
+#therapy {
 	width: 90%;
 	font-family: "arial";
 	text-align: justify;
 }
 
-#therapy h2
-{
-  text-align: center;
+#therapy h2 {
+	text-align: center;
 	font-family: "arial";
 	font-size: 50px;
 	color: #719ace;
@@ -198,77 +182,65 @@ p {
 	color: #719ace;
 }
 
-.contactDetails
-{
+.contactDetails {
 	width: 23%;
 	position: relative;
 	left: 0;
 	text-align: left;
 }
 
-#wrap
-{
+#wrap {
 	width: 300px;
 }
 
-#contact
-{
+#contact {
 	width: 86%;
 	font-family: "arial";
 	text-align: center;
 	padding-bottom: 200px;
 }
 
-#tel
-{
+#tel {
 	text-align: center;
 }
 
-a
-{
+a {
 	font-family: "arial";
 	text-decoration: underline;
 	color: #719ace;
 }
 
-#contact h2
-{
+#contact h2 {
 	text-align: center;
 	font-family: "arial";
 	font-size: 50px;
 	color: #719ace;
 }
 
-#address
-{
+#address {
 	padding-left: 20px;
 	padding-top: 30px;
 	font-family: "arial";
 }
 
-#address_Two
-{
+#address_Two {
 	padding-left: 30px;
 }
 
-#address a
-{
+#address a {
 	font-family: "arial";
 }
 
-.miniHeader
-{
+.miniHeader {
 	margin: 0;
 	font-weight: bold;
 }
 
-.miniSubHeader
-{
+.miniSubHeader {
 	margin-top: 0;
 }
 
-#mapOne
-{
+#mapOne {
 	display: block;
 	position: relative;
 	width: 300px;
@@ -277,8 +249,7 @@ a
 	margin-bottom: 20px;
 }
 
-#footer
-{
+#footer {
 	position: relative;
 	bottom: 0;
 	width: 100%;
@@ -287,23 +258,20 @@ a
 	background: #3C3C3C;
 }
 
-#footer p
-{
+#footer p {
 	font-family: "arial";
 	text-decoration-style: none;
 	padding: 10px;
 	color: #FFFFFF;
 }
 
-#footer a
-{
+#footer a {
 	font-family: "arial";
 	text-decoration: none;
 	color: #FFFFFF;
 }
 
-#footer a:hover
-{
+#footer a:hover {
 	color: #719ace;
 }
 
@@ -313,208 +281,179 @@ a
 }
 
 /*Pad view*/
-@media (min-width: 720px)
-{
-	#miniLogo
-	{
+@media (min-width: 720px) {
+	#miniLogo {
 		display: none;
 	}
 
-	#burger
-	{
+	#burger {
 		display: none;
 	}
 
-	.sidenav
-  {
-     display: none;
+	.sidenav {
+		display: none;
 	}
 
-	.logo
-	{
+	.logo {
 		display: block;
 	}
 
-	.logo img
-  {
+	.logo img {
 		display: block;
-	  padding-left: 120px;
-	  padding-top: 20px;
-  }
+		padding-left: 120px;
+		padding-top: 20px;
+	}
 
-  .nav
-  {
-	   display: inline-block;
-		 position: relative;
-		 margin: auto;
-	   font-family: "verdana";
-	   text-align: center;
-		 width: 90%;
-		 left: 5%;
-		 border-bottom: solid 5px #719ace;
-  }
+	.nav {
+		display: inline-block;
+		position: relative;
+		margin: auto;
+		font-family: "verdana";
+		text-align: center;
+		width: 90%;
+		left: 5%;
+		border-bottom: solid 5px #719ace;
+	}
 
-    .nav li
-    {
-	    display: inline;
-			padding-left: 50px;
-    }
+	.nav li {
+		display: inline;
+		padding-left: 50px;
+	}
 
-    .nav a
-    {
-	    display: inline-block;
-	    text-decoration: none;
-	    color: #719ace;
-			padding: 5px;
-    }
+	.nav a {
+		display: inline-block;
+		text-decoration: none;
+		color: #719ace;
+		padding: 5px;
+	}
 
-    .nav a:hover
-    {
-	    color: #ffffff;
-			background-color: #719ace;
-    }
+	.nav a:hover {
+		color: #ffffff;
+		background-color: #719ace;
+	}
 
-	#slideshow
-	{
+	#slideshow {
 		position: relative;
 		display: block;
 		top: 10px;
 	}
 
-  #slideshow img
-  {
-	  width: 100%;
-  }
+	#slideshow img {
+		width: 100%;
+	}
 
-	#welcomeText
-  {
-	   font-size: 24px;
-  }
+	#welcomeText {
+		font-size: 24px;
+	}
 
-	#mapOne
-  {
-	  position: absolute;
+	#mapOne {
+		position: absolute;
 		top: 0;
 		right: 0;
-	  width: 73%;
-	  height: 400px;
-	  margin-bottom: 20px;
-  }
+		width: 73%;
+		height: 400px;
+		margin-bottom: 20px;
+	}
 
-	#bottomImageContainer
-	{
+	#bottomImageContainer {
 		height: 300px;
 		margin-bottom: 50px;
 	}
 
-	.bottomImage
-	{
+	.bottomImage {
 		position: relative;
 		float: left;
 		width: 49.5%;
 	}
 
-	.rightImage
-	{
+	.rightImage {
 		margin-left: 1%;
 	}
 }
 
 /*Desktop view*/
-@media (min-width: 1250px)
-{
-  .headerContainer {
+@media (min-width: 1250px) {
+	.headerContainer {
 		width: 86%;
 		position: relative;
 		margin: auto
 	}
 
 	.nav {
-	  position: relative;
+		position: relative;
 		left: 0;
 		padding: 0;
-	  display: inline-block;
-	  font-family: "verdana";
-	  text-align: right;
-	  top: -22px;
+		display: inline-block;
+		font-family: "verdana";
+		text-align: right;
+		top: -22px;
 		margin: 0;
 		z-index: 2;
-  }
+	}
 
-	.logo
-	{
+	.logo {
 		display: block;
 
 	}
 
-	.logo img
-  {
+	.logo img {
 		display: block;
-	  float: left;
-	  padding-left: 0;
-	  padding-top: 0;
-  }
+		float: left;
+		padding-left: 0;
+		padding-top: 0;
+	}
 
-  .nav li
-  {
-	  display: inline;
-  }
+	.nav li {
+		display: inline;
+	}
 
-  #slideshow img
-  {
-	  position: relative;
+	#slideshow img {
+		position: relative;
 		margin: auto;
-  }
-
-	#bio
-	{
-		 width: 1100px;
-	   font-family: "arial";
 	}
 
-	#bio h2
-	{
+	#bio {
+		width: 1100px;
+		font-family: "arial";
+	}
+
+	#bio h2 {
 		text-align: center;
 		font-family: "helvetica";
 		font-size: 50px;
 		color: #719ace;
 	}
 
-	#therapy
-	{
-		 width: 1100px;
-	   font-family: "arial";
-		 padding-top: 20px;
+	#therapy {
+		width: 1100px;
+		font-family: "arial";
+		padding-top: 20px;
 	}
 
-	#therapy h2
-	{
+	#therapy h2 {
 		text-align: center;
 		font-family: "helvetica";
 		font-size: 50px;
 		color: #719ace;
 	}
 
-	#bottomImageContainer
-	{
+	#bottomImageContainer {
 		top: -60px;
 		margin-top: 0;
 	}
 
-	#footer
-    {
-	    width: 100%;
-	    margin: 0 auto;
-	    height: 100px;
-	    background: #3C3C3C;
-    }
+	#footer {
+		width: 100%;
+		margin: 0 auto;
+		height: 100px;
+		background: #3C3C3C;
+	}
 
-    #footer p
-    {
-	    font-family: "arial";
-	    text-decoration-style: none;
-	    padding-left: 50px;
-		  padding-top: 20px;
-	    color:#FFFFFF;
-    }
+	#footer p {
+		font-family: "arial";
+		text-decoration-style: none;
+		padding-left: 50px;
+		padding-top: 20px;
+		color: #FFFFFF;
+	}
 }
