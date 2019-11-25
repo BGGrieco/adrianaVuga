@@ -1,126 +1,79 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <link href="style/adaptive.css" rel="stylesheet" type="text/css">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <script src="js/functions.js"></script>
-    <link rel="stylesheet" id="font-awesome-css" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" type="text/css" media="screen">
-  </head>
 
-  <body id="wrapper">
+<head>
+  <meta charset="UTF-8">
+  <link href="style/adaptive.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <script src="js/functions.js"></script>
+</head>
 
-    <div id="miniLogo">
+<body id="wrapper">
+
+  <div id="miniLogo">
+    <a href="index.html">
+      <img src="images/miniLogoTwo.png" style="width: 200px">
+    </a>
+  </div>
+
+  <div class="headerContainer">
+    <div class="logo">
       <a href="index.html">
-        <img src="images/miniLogoTwo.png" style="width: 200px">
+        <img src="images/mainLogoTwo.png" style="width: 500px" class="bigLogo">
       </a>
     </div>
 
-    <div class="headerContainer">
-      <div class="logo">
-        <a href="index.html">
-          <img src="images/mainLogoTwo.png" style="width: 500px" class="bigLogo">
-        </a>
-      </div>
+    <ul class="nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="profilo.html">Profilo</a></li>
+      <li><a href="orientamento.html">Orientamento</a></li>
+      <li><a href="servizi.html">Servizi</a></li>
+      <li><a class="active" href="contatti.html">Contatti</a></li>
+    </ul>
+  </div>
 
-      <ul class="nav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="profilo.html">Profilo</a></li>
-        <li><a href="orientamento.html">Orientamento</a></li>
-        <li><a href="servizi.html">Servizi</a></li>
-        <li><a class="active" href="contatti.html">Contatti</a></li>
-      </ul>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+      <div id="x">&times;</div>
+    </a>
+    <a href="index.html" onclick="closeNav()">Home</a>
+    <a href="profilo.html" onclick="closeNav()">Profilo</a>
+    <a href="orientamento.html" onclick="closeNav()">Orientamento</a>
+    <a href="servizi.html" onclick="closeNav()">Servizi</a>
+    <a href="contatti.html" onclick="closeNav()">Contatti</a>
+  </div>
+  <div id="burgerBackGround">
+    <span id="burger" onclick="openNav()">&#9776;</span>
+  </div>
+
+  <div class="centered" id="contact">
+    <div class="contactDetails">
+      <p class="miniHeader">Dott.sa Adriana Vuga</p>
+      <p class="miniSubHeader">Psicologa-Psicoterapeuta</p>
+      <p>Riceve su appuntamento in:<br /><a id="address_One"
+          href="https://www.google.com/maps/place/Via+G.+Mattei,+114,+20020+Arese+MI/@45.54096,9.0771813,17z/data=!3m1!4b1!4m5!3m4!1s0x4786ead28fa97231:0xde5a6eac59a0ddca!8m2!3d45.54096!4d9.07937"
+          target="_blank">Via G. Mattei, 114 - Arese - MI</a> </p>
+      <p>Cel. +39 338 75 76 978</p>
+      <p>
+        <a href="mailto:adriana.vuga@gmail.com">adriana.vuga@gmail.com</a>
+        www.adrianavugapsicologi.it
+      </p>
+
+      <p>Lo studio è nelle vicinanze del Centro Commerciale di Arese e della fermata della MM1 Rho-Fiera.</p>
     </div>
+    <div id="mapOne"></div>
+  </div>
 
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><div id="x">&times;</div></a>
-      <a href="index.html" onclick="closeNav()">Home</a>
-      <a href="profilo.html" onclick="closeNav()">Profilo</a>
-      <a href="orientamento.html" onclick="closeNav()">Orientamento</a>
-      <a href="servizi.html" onclick="closeNav()">Servizi</a>
-      <a href="contatti.html" onclick="closeNav()">Contatti</a>
-    </div>
-    <div id="burgerBackGround">
-        <span id="burger" onclick="openNav()">&#9776;</span>
-    </div>
+  <div class="centered" id="bottomImageContainer">
+    <img class="bottomImage" src="images/photoOne.jpg">
+    <img class="bottomImage rightImage" src="images/photoFour.jpg">
+  </div>
 
-    <div class="centered" id="contact">
-        <div class="contactDetails">
-          <p class="miniHeader">Dott.sa Adriana Vuga</p>
-          <p class="miniSubHeader">Psicologa-Psicoterapeuta</p>
-          <p>Riceve su appuntamento in:<br /><a id="address_One" href="https://www.google.com/maps/place/Via+G.+Mattei,+114,+20020+Arese+MI/@45.54096,9.0771813,17z/data=!3m1!4b1!4m5!3m4!1s0x4786ead28fa97231:0xde5a6eac59a0ddca!8m2!3d45.54096!4d9.07937" target="_blank">Via G. Mattei, 114 - Arese - MI</a> </p>
-          <p>Cel. +39 338 75 76 978</p>
-          <p>
-            <a href="mailto:adriana.vuga@gmail.com">adriana.vuga@gmail.com</a>
-            www.adrianavugapsicologi.it
-          </p>
+  <div id="footer">
+    <p>Adriana Vuga | Tel: + 39 338 75 76 978 | <a href="mailto:adriana.vuga@gmail.com">adriana.vuga@gmail.com</a> |
+      PARTITA IVA: 02944830963 |</p>
+  </div>
 
-          <p>Lo studio è nelle vicinanze del Centro Commerciale di Arese e della fermata della MM1 Rho-Fiera.</p>
-        </div>
-        <div id="mapOne"></div>
-    </div>
-
-    <div class="centered" id="bottomImageContainer">
-      <img class="bottomImage" src="images/photoOne.jpg">
-      <img class="bottomImage rightImage" src="images/photoFour.jpg">
-    </div>
-
-    <div id="footer">
-      <p>Adriana Vuga | Tel: + 39 338 75 76 978 | <a href="mailto:adriana.vuga@gmail.com">adriana.vuga@gmail.com</a> | PARTITA IVA: 02944830963 |</p>
-    </div>
-
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA33g-37yhggBHuZ9XDyz-yBc6vP0UZukk&callback=locatorMapOne">
-
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
-    jQuery(document).ready(function()
-    {
-        var offset = 250;
-        var duration = 300;
-      jQuery(window).scroll(function()
-        {
-
-        if (jQuery(this).scrollTop() > offset)
-          {
-              jQuery(‘.back-to-top’).fadeIn(fast);
-          }
-
-        else
-          {
-              jQuery(‘.back-to-top’).fadeOut(fast);
-
-          }
-        }
-    });
-
-    jQuery(‘.back-to-top’).click(function(event)
-    {
-      event.preventDefault();
-        jQuery(‘html, body’).animate({scrollTop: 0}, duration);
-        return false;
-        })
-    });
-    </script>
-
-    <script>
-    var slideIndex = 0;
-    carousel();
-    function carousel()
-    {
-      "use strict";
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        for (i = 0; i < x.length; i++)
-      {
-            x[i].style.display = "none";
-        }
-        slideIndex++;
-        if (slideIndex > x.length)
-      {
-        slideIndex = 1;
-      }
-        x[slideIndex-1].style.display = "block";
-        setTimeout(carousel, 4000);
-    }
-    </script>
-  </body>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA33g-37yhggBHuZ9XDyz-yBc6vP0UZukk&callback=locatorMapOne"></script>
+</body>
 </html>
