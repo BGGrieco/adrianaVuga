@@ -284,8 +284,15 @@ a {
 	width: 100%;
 }
 
-/*Pad view*/
 @media (min-width: 720px) {
+	#mapOne {
+		left: 30%;
+		width: 70%;
+	}
+}
+
+/*Pad view*/
+@media (min-width: 1190px) {
 	#miniLogo {
 		display: none;
 	}
@@ -353,7 +360,7 @@ a {
 	#mapOne {
 		position: absolute;
 		top: 0;
-		right: 0;
+		left: 27%;
 		width: 73%;
 		height: 400px;
 		margin-bottom: 20px;
@@ -387,7 +394,7 @@ a {
 }
 
 /*Desktop view*/
-@media (min-width: 1250px) {
+@media (min-width: 1400px) {
 	.headerContainer {
 		width: 86%;
 		position: relative;
