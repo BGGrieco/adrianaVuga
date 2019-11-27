@@ -321,7 +321,7 @@ a {
 		margin: auto;
 		font-family: "verdana";
 		text-align: center;
-		width: 90%;
+		width: 100%;
 		left: 5%;
 		border-bottom: solid 5px #719ace;
 	}
@@ -480,9 +480,8 @@ a {
 	}
 
 	#mapOne {
-		width: 300px;
+		width: 73%;
 		height: 300px;
-		margin-left: 20px;
 		margin-bottom: 20px;
 	}
 }
